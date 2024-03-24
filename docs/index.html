@@ -31,9 +31,11 @@
 
         <article class="prose prose-lg prose-green">
             <p>Button CSS provides a 5kb stylesheet containing css for buttons only and nothing else.</p>
+<p>This CSS micro-framework basically provides a set of pre-defined button styles with customizable options for various use cases. It includes styles for buttons of three different sizes, five colors, and outline variations.</p>
 <p><a class="button button-blue rounded" href="#docs">See Documentation</a></p>
-<h2 id="docs">Documentation</h2>
-<h3>Usage via CDN</h3>
+<h2 id="docs">USAGE</h2>
+<p>To use this micro-framework, simply include the provided CSS code in your project. Then, apply the appropriate classes to your HTML elements to achieve the desired button styles.</p>
+<h3>Via CDN</h3>
 <p>You can use our CDN:</p>
 <pre><code class="language-html">&lt;!--minified CDN--&gt;
 &lt;link rel=&quot;stylesheet&quot; href=&quot;https://upscwiki.blr1.cdn.digitaloceanspaces.com/buttoncss/button.min.css&quot;&gt;
@@ -44,6 +46,128 @@
 <h3>Download</h3>
 <p>If you prefer downloading the css, we have provided the button below.</p>
 <p><a class="button button-black rounded" href="/download/buttoncss.zip">Download</a></p>
+<h2>BUTTON CLASSES</h2>
+<h3>Basic Button Styles</h3>
+<h4><code>.button</code></h4>
+<ul>
+<li>Provides basic styling for buttons.</li>
+<li>Applies consistent padding, border, and text color.</li>
+<li>Suitable for general button use cases.</li>
+</ul>
+<pre><code class="language-html">&lt;a href=&quot;&quot; class=&quot;button button-red&quot;&gt;A NORMAL red button&lt;/a&gt;
+</code></pre>
+<p><a href="" class="button button-red">A NORMAL red button</a></p>
+<h4>Rounded or Not Rounded</h4>
+<p>Use the class <code>.rounded</code> to make a button rounded.</p>
+<pre><code class="language-html">&lt;a href=&quot;&quot; class=&quot;button button-black rounded&quot;&gt;A ROUNDED button&lt;/a&gt;
+&lt;a href=&quot;&quot; class=&quot;button button-black&quot;&gt;NOT-ROUNDED button&lt;/a&gt;
+</code></pre>
+<p><a href="" class="button button-black rounded">A ROUNDED button</a>
+<a href="" class="button button-black">NOT-ROUNDED button</a></p>
+<h4><code>.button-sm</code></h4>
+<ul>
+<li>Provides styling for small-sized buttons.</li>
+<li>Smaller padding compared to the basic button style.</li>
+<li>Suitable for buttons requiring less visual prominence.</li>
+</ul>
+<pre><code class="language-html">&lt;a href=&quot;&quot; class=&quot;button button-sm button-red&quot;&gt;A SMALL red button&lt;/a&gt;
+</code></pre>
+<p><a href="" class="button button-sm button-red">A SMALL red button</a></p>
+<h4><code>.button-lg</code></h4>
+<ul>
+<li>Provides styling for large-sized buttons.</li>
+<li>Larger padding compared to the basic button style.</li>
+<li>Suitable for buttons requiring increased visual prominence.</li>
+</ul>
+<pre><code class="language-html">&lt;a href=&quot;&quot; class=&quot;button button-lg button-red&quot;&gt;A LARGE red button&lt;/a&gt;
+</code></pre>
+<p><a href="" class="button button-lg button-red">A LARGE red button</a></p>
+<h3>Button Colors</h3>
+<h4><code>.button-red</code></h4>
+<ul>
+<li>Applies red color scheme to the button.</li>
+<li>Suitable for indicating danger or critical actions.</li>
+</ul>
+<pre><code class="language-html">&lt;a href=&quot;&quot; class=&quot;button button-red&quot;&gt;A red button&lt;/a&gt;
+</code></pre>
+<p><a href="" class="button button-red">A red button</a></p>
+<h4><code>.button-blue</code></h4>
+<ul>
+<li>Applies blue color scheme to the button.</li>
+<li>Suitable for indicating primary actions or links.</li>
+</ul>
+<pre><code class="language-html">&lt;a href=&quot;&quot; class=&quot;button button-blue&quot;&gt;A blue button&lt;/a&gt;
+</code></pre>
+<p><a href="" class="button button-blue">A blue button</a></p>
+<h4><code>.button-green</code></h4>
+<ul>
+<li>Applies green color scheme to the button.</li>
+<li>Suitable for indicating success or positive actions.</li>
+</ul>
+<pre><code class="language-html">&lt;a href=&quot;&quot; class=&quot;button button-green&quot;&gt;A green button&lt;/a&gt;
+</code></pre>
+<p><a href="" class="button button-green">A green button</a></p>
+<h4><code>.button-yellow</code></h4>
+<ul>
+<li>Applies yellow color scheme to the button.</li>
+<li>Suitable for indicating warnings or attention-seeking actions.</li>
+</ul>
+<pre><code class="language-html">&lt;a href=&quot;&quot; class=&quot;button button-yellow&quot;&gt;A yellow button&lt;/a&gt;
+</code></pre>
+<p><a href="" class="button button-yellow">A yellow button</a></p>
+<h4><code>.button-black</code></h4>
+<ul>
+<li>Applies black color scheme to the button.</li>
+<li>Suitable for creating buttons with dark color scheme.</li>
+</ul>
+<pre><code class="language-html">&lt;a href=&quot;&quot; class=&quot;button button-black&quot;&gt;A black button&lt;/a&gt;
+</code></pre>
+<p><a href="" class="button button-black">A black button</a></p>
+<h3>Button Outline Styles</h3>
+<h4><code>.button-red-outline</code></h4>
+<ul>
+<li>Applies red outline with transparent background to the button.</li>
+<li>Suitable for creating outlined buttons with red color.</li>
+</ul>
+<pre><code class="language-html">&lt;a href=&quot;&quot; class=&quot;button button-red-outline&quot;&gt;A red button with OUTLINE&lt;/a&gt;
+</code></pre>
+<p><a href="" class="button button-red-outline">A red button with OUTLINE</a></p>
+<h4><code>.button-blue-outline</code></h4>
+<ul>
+<li>Applies blue outline with transparent background to the button.</li>
+<li>Suitable for creating outlined buttons with blue color.</li>
+</ul>
+<pre><code class="language-html">&lt;a href=&quot;&quot; class=&quot;button button-blue-outline&quot;&gt;A blue button with OUTLINE&lt;/a&gt;
+</code></pre>
+<p><a href="" class="button button-blue-outline">A blue button with OUTLINE</a></p>
+<h4><code>.button-green-outline</code></h4>
+<ul>
+<li>Applies green outline with transparent background to the button.</li>
+<li>Suitable for creating outlined buttons with green color.</li>
+</ul>
+<pre><code class="language-html">&lt;a href=&quot;&quot; class=&quot;button button-green-outline&quot;&gt;A green button with OUTLINE&lt;/a&gt;
+</code></pre>
+<p><a href="" class="button button-green-outline">A green button with OUTLINE</a></p>
+<h4><code>.button-yellow-outline</code></h4>
+<ul>
+<li>Applies yellow outline with transparent background to the button.</li>
+<li>Suitable for creating outlined buttons with yellow color.</li>
+</ul>
+<pre><code class="language-html">&lt;a href=&quot;&quot; class=&quot;button button-yellow-outline&quot;&gt;A yellow button with OUTLINE&lt;/a&gt;
+</code></pre>
+<p><a href="" class="button button-yellow-outline">A yellow button with OUTLINE</a></p>
+<h4><code>.button-black-outline</code></h4>
+<ul>
+<li>Applies black outline with transparent background to the button.</li>
+<li>Suitable for creating outlined buttons with black color.</li>
+</ul>
+<pre><code class="language-html">&lt;a href=&quot;&quot; class=&quot;button button-black-outline&quot;&gt;A black button with OUTLINE&lt;/a&gt;
+</code></pre>
+<p><a href="" class="button button-black-outline">A black button with OUTLINE</a></p>
+<h2>Compatibility</h2>
+<p>This micro-framework is designed to be compatible with modern web browsers and responsive design principles.</p>
+<h2>License</h2>
+<p>This micro-framework is provided under the MIT License. Feel free to use and modify it according to your project needs.</p>
         </article>
 
         <div class="mt-3">
